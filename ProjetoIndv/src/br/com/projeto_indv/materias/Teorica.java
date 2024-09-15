@@ -11,8 +11,8 @@ public class Teorica extends Materia {
     String Livro;
     private static Map<Integer, Teorica> getMapaTeorica = new HashMap<>();
 
-    public Teorica(int id, String nome, int cargaHoraria, int fkIdProfessor, String Livro) {
-        super(id, nome, cargaHoraria, fkIdProfessor);
+    public Teorica(TipoMaterias tipo, int id, String nomeCurso, String turno, String nome, int cargaHoraria, int fkIdProfessor, String Livro) {
+        super(id, nomeCurso, turno, nome, cargaHoraria, fkIdProfessor);
         this.Livro = Livro;
     }
 
@@ -45,7 +45,7 @@ public class Teorica extends Materia {
 
     @Override
     public String toString() {
-        return "Materias{" + "id=" + id + ", nome=" + nome + ", cargaHoraria=" + cargaHoraria + ", idProfessor=" + fkIdProfessor + ", idAlunos=" + '}';
+        return "Materias{" + "id=" + id + ", nome=" + nomeMateria + ", cargaHoraria=" + cargaHoraria + ", idProfessor=" + fkIdProfessor + ", idAlunos=" + '}';
     }  
 
 }

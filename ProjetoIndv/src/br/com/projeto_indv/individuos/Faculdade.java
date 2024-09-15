@@ -1,11 +1,15 @@
 package br.com.projeto_indv.individuos;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Faculdade {
     private String nome;
     private String campus;
     private String cidade;
     private String estado;
     private String pais;
+    private static Map<String, Faculdade> getMapaFaculdade = new HashMap<>();
 
     public Faculdade() {
     }
@@ -56,6 +60,10 @@ public class Faculdade {
 
     public void setPais(String pais) {
         this.pais = pais;
+    }
+
+    public static Map<String, Faculdade> getMapaFaculdade() {
+        return getMapaFaculdade;
     }
 
     @Override

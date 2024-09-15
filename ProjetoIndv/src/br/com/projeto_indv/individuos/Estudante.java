@@ -1,5 +1,8 @@
 package br.com.projeto_indv.individuos;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Estudante {
     int id;
     String nome;
@@ -7,6 +10,7 @@ public class Estudante {
     String email;
     int RegistroAcademico;
     int fkIdMaterias;
+    private static Map<Integer, Estudante> getMapaEstudante = new HashMap<>();
 
     public Estudante(int id, String nome, String cpf, String email, int RegistroAcademico, int fkIdMaterias) {
         this.id = id;
@@ -66,6 +70,10 @@ public class Estudante {
 
     public void setIdMaterias(int fkIdMaterias) {
         this.fkIdMaterias = fkIdMaterias;
+    }
+
+    public static Map<Integer, Estudante> getMapaEstudante() {
+        return getMapaEstudante;
     }
 
     @Override

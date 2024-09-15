@@ -11,8 +11,8 @@ public class Experimental extends Materia {
     String salaDeAula;
     private static Map<Integer, Experimental> getMapaExperimental = new HashMap<>();
 
-    public Experimental(int id, String nome, int cargaHoraria, int fkIdProfessor, String salaDeAula) {
-        super(id, nome, cargaHoraria, fkIdProfessor);
+    public Experimental(TipoMaterias tipo, int id, String nomeCurso, String turno, String nomeMateria, int cargaHoraria, int fkIdProfessor, String salaDeAula) {
+        super(id, nomeCurso, turno, nomeMateria, cargaHoraria, fkIdProfessor);
         this.salaDeAula = salaDeAula;
     }
 
@@ -45,7 +45,7 @@ public class Experimental extends Materia {
 
     @Override
     public String toString() {
-        return "Materias{" + "id=" + id + ", nome=" + nome + ", cargaHoraria=" + cargaHoraria + ", idProfessor=" + fkIdProfessor + ", idAlunos=" + '}';
+        return "Materias{" + "id=" + id + ", nome=" + nomeMateria + ", cargaHoraria=" + cargaHoraria + ", idProfessor=" + fkIdProfessor + '}';
     }
 
 }

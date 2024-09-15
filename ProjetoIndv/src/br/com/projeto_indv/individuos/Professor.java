@@ -1,20 +1,27 @@
 package br.com.projeto_indv.individuos;
 
+import br.com.projeto_indv.materias.Experimental;
+import br.com.projeto_indv.materias.Pratica;
+import br.com.projeto_indv.materias.Teorica;
+import java.util.HashMap;
+import java.util.Map;
+
 public class Professor {
     int id;
     String nome;
     String cpf;
     String email;
     int RegistroAcademico;
-    int fkIdMaterias;
+    int Materias;
+    private static Map<Integer, Professor> getMapaProf = new HashMap<>();
 
-    public Professor(int id, String nome, String cpf, String email, int RegistroAcademico, int fkIdMaterias) {
+    public Professor(int id, String nome, String cpf, String email, int RegistroAcademico, int Materias) {
         this.id = id;
         this.nome = nome;
         this.cpf = cpf;
         this.email = email;
         this.RegistroAcademico = RegistroAcademico;
-        this.fkIdMaterias = fkIdMaterias;
+        this.Materias = Materias;
     }
 
     public Professor() {
@@ -40,8 +47,8 @@ public class Professor {
         return RegistroAcademico;
     }
 
-    public int getFkIdMaterias() {
-        return fkIdMaterias;
+    public int getMaterias() {
+        return Materias;
     }
 
     public void setId(int id) {
@@ -64,12 +71,28 @@ public class Professor {
         this.RegistroAcademico = RegistroAcademico;
     }
 
-    public void setFkIdMaterias(int fkIdMaterias) {
-        this.fkIdMaterias = fkIdMaterias;
+    public void setMaterias(int Materias) {
+        this.Materias = Materias;
+    }
+
+    public static Map<Integer, Professor> getMapaProf() {
+        return getMapaProf;
+    }
+
+    public void addMateria(Experimental materia) {
+        getMapaProf().put(materia.getId(), this);
+    }
+
+    public void addMateria(Teorica materia) {
+        getMapaProf().put(materia.getId(), this);
+    }
+
+    public void addMateria(Pratica materia) {
+        getMapaProf().put(materia.getId(), this);
     }
 
     @Override
     public String toString() {
-        return "Professor{" + "id=" + id + ", nome=" + nome + ", cpf=" + cpf + ", email=" + email + ", RegistroAcademico=" + RegistroAcademico + ", idMaterias=" + fkIdMaterias + '}';
+        return "Professor{" + "id=" + id + ", nome=" + nome + ", cpf=" + cpf + ", email=" + email + ", RegistroAcademico=" + RegistroAcademico + '}';
     }
 }

@@ -1,14 +1,20 @@
 package br.com.projeto_indv.materias;
 
-public class Materia {
+import br.com.projeto_indv.individuos.Cursos;
+import java.util.HashMap;
+import java.util.Map;
+
+public class Materia extends Cursos{
     int id;
-    String nome;
+    String nomeMateria;
     int cargaHoraria;
     int fkIdProfessor;
+    private static Map<Integer, Materia> getMapaMateria = new HashMap<>();
 
-    public Materia(int id, String nome, int cargaHoraria, int fkIdProfessor) {
+    public Materia(int id, String nomeCurso, String turno, String nomeMateria, int cargaHoraria, int fkIdProfessor) {
+        super(id, nomeCurso, turno);
         this.id = id;
-        this.nome = nome;
+        this.nomeMateria = nomeMateria;
         this.cargaHoraria = cargaHoraria;
         this.fkIdProfessor = fkIdProfessor;
     }
@@ -20,8 +26,8 @@ public class Materia {
         return id;
     }
 
-    public String getNome() {
-        return nome;
+    public String getNomeMateria() {
+        return nomeMateria;
     }
 
     public int getCargaHoraria() {
@@ -36,8 +42,8 @@ public class Materia {
         this.id = id;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNomeMateria(String nomeMateria) {
+        this.nomeMateria = nomeMateria;
     }
 
     public void setCargaHoraria(int cargaHoraria) {
@@ -48,8 +54,12 @@ public class Materia {
         this.fkIdProfessor = fkIdProfessor;
     }
 
+    public static Map<Integer, Materia> getMapaMateria() {
+		return getMapaMateria;
+	}
+
     @Override
     public String toString() {
-        return "Materias{" + "id=" + id + ", nome=" + nome + ", cargaHoraria=" + cargaHoraria + ", idProfessor=" + fkIdProfessor + ", idAlunos=" + '}';
+        return "Materias{" + "id=" + id + ", nome=" + nomeMateria + ", cargaHoraria=" + cargaHoraria + ", idProfessor=" + fkIdProfessor + '}';
     }
 }

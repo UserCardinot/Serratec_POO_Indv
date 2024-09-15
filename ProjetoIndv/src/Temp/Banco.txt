@@ -8,11 +8,18 @@ Estudante;1;Lucas;11111111111;lucascardinot@gmail.com;2144298;1
 Estudante;2;Monique;22222222222;moniquecardinot@gmail.com;2144297;2
 Estudante;3;Beatriz;33333333333;beatrizsarthou@gmail.com;2144296;4
 Estudante;4;Nicolas;44444444444;nicolascardinot@gmail.com;2144295;3
-Professor;1;Joao;55555555555;2122298;1
-Professor;2;Marcos;66666666666;2122297;2
-Professor;3;Pedro;77777777777;2122296;3
-Professor;4;Moises;88888888888;2122295;4
-Materias;1;Calculo 1;60;1;1
-Materias;2;Calculo 2;40;2;2
-Materias;3;Calculo 3;40;3;4
-Materias;4;Anatomia;30;4;3
+Professor;0;Jose;999999999999;Jose@gmail.com;2122294;0
+Professor;1;Joao;55555555555;Joao@gmail.com;2122298;1
+Professor;2;Marcos;66666666666;Marcos@gmail.com;2122297;2
+Professor;3;Pedro;77777777777;Pedro@gmail.com;2122296;3
+Professor;4;Moises;88888888888;Moises@gmail.com;2122295;4
+Materias;0;Biomedicina;noturno;Biologia;40;1
+Materias;1;Engenharia de Computacao;integral;Calculo;60;2
+Materias;2;Engenharia Eletrica;integral;Fisica;40;3
+Materias;3;Engenharia de Computacao;integral;Geometria;40;3
+Materias;4;Biomedicina;noturno;Anatomia;30;4
+
+
+Experimental;1;Biomedicina;noturno;anatomia 2;40;4;Sala 1
+Pratica;1;Engenharia Eletrica;integral;fisica 3;40;3;Jaleco
+Teorica;1;Biomedicina;noturno;anatomia 1;30;4;Aprendendo anatomia vl1
