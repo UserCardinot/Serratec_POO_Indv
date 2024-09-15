@@ -1,23 +1,23 @@
 package br.com.projeto_indv.individuos;
 
-public class Professor {
+public class Estudante {
     int id;
     String nome;
     String cpf;
     String email;
     int RegistroAcademico;
-    int idMaterias;
+    int fkIdMaterias;
 
-    public Professor(int id, String nome, String cpf, String email, int RegistroAcademico, int idMaterias) {
+    public Estudante(int id, String nome, String cpf, String email, int RegistroAcademico, int fkIdMaterias) {
         this.id = id;
         this.nome = nome;
         this.cpf = cpf;
         this.email = email;
         this.RegistroAcademico = RegistroAcademico;
-        this.idMaterias = idMaterias;
+        this.fkIdMaterias = fkIdMaterias;
     }
 
-    public Professor() {
+    public Estudante() {
     }
 
     public int getId() {
@@ -40,8 +40,8 @@ public class Professor {
         return RegistroAcademico;
     }
 
-    public int getIdMaterias() {
-        return idMaterias;
+    public int getFkIdMaterias() {
+        return fkIdMaterias;
     }
 
     public void setId(int id) {
@@ -51,7 +51,7 @@ public class Professor {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
+    
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
@@ -64,12 +64,12 @@ public class Professor {
         this.RegistroAcademico = RegistroAcademico;
     }
 
-    public void setIdMaterias(int idMaterias) {
-        this.idMaterias = idMaterias;
+    public void setIdMaterias(int fkIdMaterias) {
+        this.fkIdMaterias = fkIdMaterias;
     }
 
     @Override
     public String toString() {
-        return "Professor{" + "id=" + id + ", nome=" + nome + ", cpf=" + cpf + ", email=" + email + ", RegistroAcademico=" + RegistroAcademico + ", idMaterias=" + idMaterias + '}';
+        return "Estudante{" + "id=" + id + ", nome=" + nome + ", cpf=" + cpf + ", email=" + email + ", RegistroAcademico=" + RegistroAcademico + ", idMaterias=" + fkIdMaterias + '}';
     }
 }

@@ -1,25 +1,23 @@
 package br.com.projeto_indv.individuos;
 
-public class Estudante {
+public class Professor {
     int id;
     String nome;
     String cpf;
     String email;
-    String telefone;
     int RegistroAcademico;
-    int idMaterias;
+    int fkIdMaterias;
 
-    public Estudante(int id, String nome, String cpf, String email, String telefone, int RegistroAcademico, int idMaterias) {
+    public Professor(int id, String nome, String cpf, String email, int RegistroAcademico, int fkIdMaterias) {
         this.id = id;
         this.nome = nome;
         this.cpf = cpf;
         this.email = email;
-        this.telefone = telefone;
         this.RegistroAcademico = RegistroAcademico;
-        this.idMaterias = idMaterias;
+        this.fkIdMaterias = fkIdMaterias;
     }
 
-    public Estudante() {
+    public Professor() {
     }
 
     public int getId() {
@@ -38,16 +36,12 @@ public class Estudante {
         return email;
     }
 
-    public String getTelefone() {
-        return telefone;
-    }
-
     public int getRegistroAcademico() {
         return RegistroAcademico;
     }
 
-    public int getIdMaterias() {
-        return idMaterias;
+    public int getFkIdMaterias() {
+        return fkIdMaterias;
     }
 
     public void setId(int id) {
@@ -57,7 +51,7 @@ public class Estudante {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    
+
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
@@ -66,20 +60,16 @@ public class Estudante {
         this.email = email;
     }
 
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
-    }
-
     public void setRegistroAcademico(int RegistroAcademico) {
         this.RegistroAcademico = RegistroAcademico;
     }
 
-    public void setIdMaterias(int idMaterias) {
-        this.idMaterias = idMaterias;
+    public void setFkIdMaterias(int fkIdMaterias) {
+        this.fkIdMaterias = fkIdMaterias;
     }
 
     @Override
     public String toString() {
-        return "Estudante{" + "id=" + id + ", nome=" + nome + ", cpf=" + cpf + ", email=" + email + ", telefone=" + telefone + ", RegistroAcademico=" + RegistroAcademico + ", idMaterias=" + idMaterias + '}';
+        return "Professor{" + "id=" + id + ", nome=" + nome + ", cpf=" + cpf + ", email=" + email + ", RegistroAcademico=" + RegistroAcademico + ", idMaterias=" + fkIdMaterias + '}';
     }
 }

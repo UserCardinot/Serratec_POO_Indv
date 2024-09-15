@@ -1,0 +1,18 @@
+Faculdade;UTFPR;CP;Cornelio Procópio;PR;Brasil
+Faculdade;UTFPR;PB;Pato Branco;PR;Brasil
+Faculdade;UNIFESO;Teresopolis;Teresopolis;RJ;Brasil
+Cursos;1;Engenharia Eletrica;integral
+Cursos;2;Engenharia de Computacao;integral
+Cursos;3;Biomedicina;noturno
+Estudante;1;Lucas;11111111111;lucascardinot@gmail.com;2144298;1
+Estudante;2;Monique;22222222222;moniquecardinot@gmail.com;2144297;2
+Estudante;3;Beatriz;33333333333;beatrizsarthou@gmail.com;2144296;4
+Estudante;4;Nicolas;44444444444;nicolascardinot@gmail.com;2144295;3
+Professor;1;Joao;55555555555;2122298;1
+Professor;2;Marcos;66666666666;2122297;2
+Professor;3;Pedro;77777777777;2122296;3
+Professor;4;Moises;88888888888;2122295;4
+Materias;1;Calculo 1;60;1;1
+Materias;2;Calculo 2;40;2;2
+Materias;3;Calculo 3;40;3;4
+Materias;4;Anatomia;30;4;3
