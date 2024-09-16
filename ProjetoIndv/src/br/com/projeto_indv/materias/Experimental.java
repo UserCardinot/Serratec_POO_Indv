@@ -47,5 +47,4 @@ public class Experimental extends Materia {
     public String toString() {
         return "Materias{" + "id=" + id + ", nome=" + nomeMateria + ", cargaHoraria=" + cargaHoraria + ", idProfessor=" + fkIdProfessor + '}';
     }
-
 }

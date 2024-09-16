@@ -32,42 +32,32 @@ public class LeituraEscrita {
 					String[] dados = linha.split(";");
 
 					if (dados[0].equalsIgnoreCase("Faculdade")){
-						Faculdade facul = new Faculdade(dados[1], dados[2], dados[3], dados[4], dados[5]);
-						Util.setupLogger().log(Level.INFO, facul::toString);
+						Faculdade facul = new Faculdade(Integer.parseInt(dados[1]), dados[2], dados[3], dados[4], dados[5], dados[6]);
 						Faculdade.getMapaFaculdade().put(dados[1], facul);
 					}
 					else if (dados[0].equalsIgnoreCase("Cursos")) {
 						Cursos curso = new Cursos(Integer.parseInt(dados[1]), dados[2], dados[3]);
-						Util.setupLogger().log(Level.INFO, curso::toString);
 						Cursos.getMapaCursos().put(Integer.parseInt(dados[1]), curso);
 					}
 					else if (dados[0].equalsIgnoreCase("Professor")) {
 						Professor prof = new Professor(Integer.parseInt(dados[1]), dados[2], dados[3], dados[4], Integer.parseInt(dados[5]), Integer.parseInt(dados[6]));
-						Util.setupLogger().log(Level.INFO, prof::toString);
-						Professor.getMapaProf().put(Integer.parseInt(dados[1]), prof);	
+						Professor.getMapaProf().put(dados[1], prof);	
 					}
 					else if (dados[0].equalsIgnoreCase("Materias")) {
 						Materia materias = new Materia(Integer.parseInt(dados[1]), dados[2], dados[3], dados[4], Integer.parseInt(dados[5]), Integer.parseInt(dados[6]));
-						Util.setupLogger().log(Level.INFO, "Materias");
 						Materia.getMapaMateria().put(Integer.parseInt(dados[1]), materias);
 					}
 					else if(dados[0].equalsIgnoreCase(TipoMaterias.EXPERIMENTAL.getTipo())) {
 						Experimental experi = new Experimental(TipoMaterias.EXPERIMENTAL, Integer.parseInt(dados[1]), dados[2], dados[3], dados[4], Integer.parseInt(dados[5]), Integer.parseInt(dados[6]), dados[7]);
-						Util.setupLogger().log(Level.INFO, experi::toString);
 						Experimental.getMapaExperimental().put(Integer.parseInt(dados[1]), experi);
-						Professor.getMapaProf().get(Integer.parseInt(dados[4])).addMateria(experi);
 					}
 					else if(dados[0].equalsIgnoreCase(TipoMaterias.TEORICA.getTipo())) {
 						Teorica teorica = new Teorica(TipoMaterias.TEORICA, Integer.parseInt(dados[1]), dados[2], dados[3], dados[4], Integer.parseInt(dados[5]), Integer.parseInt(dados[6]), dados[7]);
-						Util.setupLogger().log(Level.INFO, teorica::toString);
 						Teorica.getMapaTeorica().put(Integer.parseInt(dados[1]), teorica);
-						Professor.getMapaProf().get(Integer.parseInt(dados[4])).addMateria(teorica);
 					}
 					else if(dados[0].equalsIgnoreCase(TipoMaterias.PRATICA.getTipo())) {
 						Pratica pratica = new Pratica(TipoMaterias.PRATICA, Integer.parseInt(dados[1]), dados[2], dados[3], dados[4], Integer.parseInt(dados[5]), Integer.parseInt(dados[6]), dados[7]);
-						Util.setupLogger().log(Level.INFO, pratica::toString);
 						Pratica.getMapaPratica().put(Integer.parseInt(dados[1]), pratica);
-						Professor.getMapaProf().get(Integer.parseInt(dados[4])).addMateria(pratica);
 					}
 				} else {
 					break;

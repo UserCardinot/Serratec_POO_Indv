@@ -1,0 +1,109 @@
+__________INICIO__________
+16/09/2024 17:29:23
+Nome do Curso: Biomedicina
+Turno do curso: noturno
+Materia: Anatomia 2
+Carga Horaria: 40
+Professor: 4
+Sala de Aula: Sala 1
+
+
+Nome do Curso: Engenharia de Computacao
+Turno do curso: integral
+Materia: Calculo 1
+Carga Horaria: 40
+Professor: 1
+Sala de Aula: Sala 2
+
+
+Nome do Curso: Engenharia de Computacao
+Turno do curso: integral
+Materia: Calculo 2
+Carga Horaria: 40
+Professor: 1
+Sala de Aula: Sala 3
+
+
+Nome do Curso: Engenharia Eletrica
+Turno do curso: integral
+Materia: Geometria
+Carga Horaria: 40
+Professor: 2
+Sala de Aula: Sala 4
+
+
+__________FIM__________
+
+__________INICIO__________
+
+
+Nome do Curso: Biomedicina
+Turno do curso: noturno
+Materia: Bases moleculares
+Carga Horaria: 40
+Professor: 4
+Livro: Citologia vl1
+
+
+Nome do Curso: Engenharia de Computacao
+Turno do curso: integral
+Materia: Matematica aplicada
+Carga Horaria: 40
+Professor: 5
+Livro: Matematica aplicada para Engenharia
+
+
+Nome do Curso: Engenharia de Computacao
+Turno do curso: integral
+Materia: Equacao diferencial
+Carga Horaria: 60
+Professor: 5
+Livro: Equacao diferencial para Engenharia
+
+
+Nome do Curso: Engenharia Eletrica
+Turno do curso: integral
+Materia: Teoria da Robotica
+Carga Horaria: 30
+Professor: 2
+Livro: Robotica Digital
+
+
+__________FIM__________
+
+__________INICIO__________
+
+Nome do Curso: Engenharia Eletrica
+Turno do curso: integral
+Materia: Fisica 1
+Carga Horaria: 40
+Professor: 3
+Material Extra: Jaleco
+
+
+Nome do Curso: Engenharia Eletrica
+Turno do curso: integral
+Materia: Fisica 2
+Carga Horaria: 40
+Professor: 3
+Material Extra: Termometro
+
+
+Nome do Curso: Biomedicina
+Turno do curso: noturno
+Materia: Bioquimica
+Carga Horaria: 60
+Professor: 4
+Material Extra: Jaleco
+
+
+Nome do Curso: Biomedicina
+Turno do curso: noturno
+Materia: Hematologia
+Carga Horaria: 60
+Professor: 4
+Material Extra: Jaleco
+
+
+__________FIM__________
+

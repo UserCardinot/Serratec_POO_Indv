@@ -1,0 +1,80 @@
+__________INICIO__________
+16/09/2024 17:28:37
+Nome da Faculdade: UTFPR
+Campus: CP
+Cidade: Cornelio Procopio
+Estado: PR
+Pais: Brasil
+
+
+Nome da Faculdade: UTFPR
+Campus: PB
+Cidade: Pato Branco
+Estado: PR
+Pais: Brasil
+
+
+Nome da Faculdade: UNIFESO
+Campus: Teresopolis
+Cidade: Teresopolis
+Estado: RJ
+Pais: Brasil
+
+
+__________FIM__________
+
+__________INICIO__________
+
+Nome do Curso: Engenharia Eletrica
+Turno do curso: integral
+
+
+Nome do Curso: Engenharia de Computacao
+Turno do curso: integral
+
+
+Nome do Curso: Biomedicina
+Turno do curso: noturno
+
+
+__________FIM__________
+
+__________INICIO__________
+
+Nome do Professor: Jose
+CPF do Professor: 999999999999
+Email: Jose@gmail.com
+Registro Academico: 2122294
+Materias: 0
+
+
+Nome do Professor: Joao
+CPF do Professor: 55555555555
+Email: Joao@gmail.com
+Registro Academico: 2122298
+Materias: 1
+
+
+Nome do Professor: Marcos
+CPF do Professor: 66666666666
+Email: Marcos@gmail.com
+Registro Academico: 2122297
+Materias: 2
+
+
+Nome do Professor: Pedro
+CPF do Professor: 77777777777
+Email: Pedro@gmail.com
+Registro Academico: 2122296
+Materias: 3
+
+
+Nome do Professor: Moises
+CPF do Professor: 88888888888
+Email: Moises@gmail.com
+Registro Academico: 2122295
+Materias: 4
+
+
+__________FIM__________
+

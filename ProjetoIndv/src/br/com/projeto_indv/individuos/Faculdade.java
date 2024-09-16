@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Faculdade {
+    private int id;
     private String nome;
     private String campus;
     private String cidade;
@@ -14,12 +15,17 @@ public class Faculdade {
     public Faculdade() {
     }
 
-    public Faculdade(String nome, String campus, String cidade, String estado, String pais) {
+    public Faculdade(int id, String nome, String campus, String cidade, String estado, String pais) {
+        this.id = id;
         this.nome = nome;
         this.campus = campus;
         this.cidade = cidade;
         this.estado = estado;
         this.pais = pais;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public String getNome() {

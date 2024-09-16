@@ -12,8 +12,8 @@ public class Pratica extends Materia {
     private static Map<Integer, Pratica> getMapaPratica = new HashMap<>();
 
 
-    public Pratica(TipoMaterias tipo, int id, String nomeCurso, String turno, String nome, int cargaHoraria, int fkIdProfessor, String materialExtra) {
-        super(id, nomeCurso, turno, nome, cargaHoraria, fkIdProfessor);
+    public Pratica(TipoMaterias tipo, int id, String nomeCurso, String turno, String nomeMateria, int cargaHoraria, int fkIdProfessor, String materialExtra) {
+        super(id, nomeCurso, turno, nomeMateria, cargaHoraria, fkIdProfessor);
         this.materialExtra = materialExtra;
     }
 

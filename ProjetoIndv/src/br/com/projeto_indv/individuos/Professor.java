@@ -13,7 +13,7 @@ public class Professor {
     String email;
     int RegistroAcademico;
     int Materias;
-    private static Map<Integer, Professor> getMapaProf = new HashMap<>();
+    private static Map<String, Professor> getMapaProf = new HashMap<>();
 
     public Professor(int id, String nome, String cpf, String email, int RegistroAcademico, int Materias) {
         this.id = id;
@@ -75,20 +75,20 @@ public class Professor {
         this.Materias = Materias;
     }
 
-    public static Map<Integer, Professor> getMapaProf() {
+    public static Map<String, Professor> getMapaProf() {
         return getMapaProf;
     }
 
     public void addMateria(Experimental materia) {
-        getMapaProf().put(materia.getId(), this);
+        getMapaProf().put(materia.getNomeMateria(), this);
     }
 
     public void addMateria(Teorica materia) {
-        getMapaProf().put(materia.getId(), this);
+        getMapaProf().put(materia.getNomeMateria(), this);
     }
 
     public void addMateria(Pratica materia) {
-        getMapaProf().put(materia.getId(), this);
+        getMapaProf().put(materia.getNomeMateria(), this);
     }
 
     @Override

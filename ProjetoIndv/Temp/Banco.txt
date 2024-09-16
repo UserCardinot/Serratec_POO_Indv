@@ -1,0 +1,32 @@
+Faculdade;1;UTFPR;CP;Cornelio Procopio;PR;Brasil
+Faculdade;2;UTFPR;PB;Pato Branco;PR;Brasil
+Faculdade;3;UNIFESO;Teresopolis;Teresopolis;RJ;Brasil
+Cursos;1;Engenharia Eletrica;integral
+Cursos;2;Engenharia de Computacao;integral
+Cursos;3;Biomedicina;noturno
+Estudante;1;Lucas;11111111111;lucascardinot@gmail.com;2144298;1
+Estudante;2;Monique;22222222222;moniquecardinot@gmail.com;2144297;2
+Estudante;3;Beatriz;33333333333;beatrizsarthou@gmail.com;2144296;4
+Estudante;4;Nicolas;44444444444;nicolascardinot@gmail.com;2144295;3
+Professor;1;Jose;999999999999;Jose@gmail.com;2122294;0
+Professor;2;Joao;55555555555;Joao@gmail.com;2122298;1
+Professor;3;Marcos;66666666666;Marcos@gmail.com;2122297;2
+Professor;4;Pedro;77777777777;Pedro@gmail.com;2122296;3
+Professor;5;Moises;88888888888;Moises@gmail.com;2122295;4
+Experimental;1;Biomedicina;noturno;Anatomia 2;40;4;Sala 1
+Experimental;2;Engenharia de Computacao;integral;Calculo 1;40;1;Sala 2
+Experimental;3;Engenharia de Computacao;integral;Calculo 2;40;1;Sala 3
+Experimental;4;Engenharia Eletrica;integral;Geometria;40;2;Sala 4
+Pratica;1;Engenharia Eletrica;integral;Fisica 1;40;3;Jaleco
+Pratica;2;Engenharia Eletrica;integral;Fisica 2;40;3;Termometro
+Pratica;3;Biomedicina;noturno;Bioquimica;60;4;Jaleco
+Pratica;4;Biomedicina;noturno;Hematologia;60;4;Jaleco
+Teorica;1;Biomedicina;noturno;Bases moleculares;40;4;Citologia vl1
+Teorica;2;Engenharia de Computacao;integral;Matematica aplicada;40;5;Matematica aplicada para Engenharia
+Teorica;3;Engenharia de Computacao;integral;Equacao diferencial;60;5;Equacao diferencial para Engenharia
+Teorica;4;Engenharia Eletrica;integral;Teoria da Robotica;30;2;Robotica Digital
+Materias;1;Biomedicina;noturno;Biologia;40;1
+Materias;2;Engenharia de Computacao;integral;Calculo;60;2
+Materias;3;Engenharia Eletrica;integral;Fisica;40;3
+Materias;4;Engenharia de Computacao;integral;Geometria;40;3
+Materias;5;Biomedicina;noturno;Anatomia;30;4
