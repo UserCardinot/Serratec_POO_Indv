@@ -78,3 +78,53 @@ Materias: 4
 
 __________FIM__________
 
+__________INICIO__________
+16/09/2024 19:41:53
+Nome da Faculdade: UTFPR
+Campus: CP
+Cidade: Cornelio Procopio
+Estado: PR
+Pais: Brasil
+
+
+Nome da Faculdade: UTFPR
+Campus: PB
+Cidade: Pato Branco
+Estado: PR
+Pais: Brasil
+
+
+Nome da Faculdade: UNIFESO
+Campus: Teresopolis
+Cidade: Teresopolis
+Estado: RJ
+Pais: Brasil
+
+
+__________FIM__________
+
+__________INICIO__________
+18/09/2024 16:12:57
+Nome da Faculdade: UTFPR
+Campus: CP
+Cidade: Cornelio Procopio
+Estado: PR
+Pais: Brasil
+
+
+Nome da Faculdade: UTFPR
+Campus: PB
+Cidade: Pato Branco
+Estado: PR
+Pais: Brasil
+
+
+Nome da Faculdade: UNIFESO
+Campus: Teresopolis
+Cidade: Teresopolis
+Estado: RJ
+Pais: Brasil
+
+
+__________FIM__________
+
